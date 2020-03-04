@@ -1,0 +1,33 @@
+﻿@page "/"
+
+<div class="control">
+    <EjsDropDownList TItem="EmployeeData" TValue="string" 
+    Placeholder="Select a name" 
+    PopupWidth="250px" PopupHeight="400px"
+    SortOrder=Syncfusion.EJ2.Blazor.Lists.SortOrder.Descending>
+    <DropDownListFieldSettings Text="FirstName" 
+    Value="EmployeeID">
+    </DropDownListFieldSettings>
+    <EjsDataManager 
+    URL="https://ej2services.syncfusion.com/production/web-services/api/Employees" 
+    Adaptor="Syncfusion.EJ2.Blazor.Adaptors.WebApiAdaptor" 
+    CrossDomain=true >
+    </EjsDataManager>
+    </EjsDropDownList>
+</div>
+
+<style>
+    .control {
+        width: 250px;
+        margin: 10%;
+    }
+</style>
+
+@code {
+    public class EmployeeData {
+        public string FirstName { get; set; }
+        public string EmployeeID { get; set; }
+        public string Designation { get; set; }
+        public string Country { get; set; }
+    }
+}
