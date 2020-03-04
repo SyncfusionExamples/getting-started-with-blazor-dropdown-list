@@ -14,6 +14,13 @@
     CrossDomain=true >
     </EjsDataManager>
     </EjsDropDownList>
+    
+    // List data binding
+    @* <EjsDropDownList DataSource="@Games" TValue="string" TItem="GamesData" Placeholder="Select a game"
+   PopupWidth="250px" PopupHeight="400px">
+  <DropDownListFieldSettings Text="Name" Value="ID">
+  </DropDownListFieldSettings>
+</EjsDropDownList> *@
 </div>
 
 <style>
@@ -24,10 +31,28 @@
 </style>
 
 @code {
-    public class EmployeeData {
+
+public class EmployeeData {
         public string FirstName { get; set; }
         public string EmployeeID { get; set; }
         public string Designation { get; set; }
         public string Country { get; set; }
     }
+
+  // Model class for List data source
+  @* public class GamesData
+  {  
+    public string ID { get; set; }
+    public string Name { get; set; }
+  }
+  List<GamesData> Games = new List<GamesData> {
+    new GamesData() { ID= "Game1", Name= "Badminton" },
+    new GamesData() { ID= "Game2", Name= "Basketball" },
+    new GamesData() { ID= "Game3", Name= "Cricket" },
+    new GamesData() { ID= "Game4", Name= "Football" },
+    new GamesData() { ID= "Game5", Name= "Golf" },
+    new GamesData() { ID= "Game6", Name= "Hockey" },
+    new GamesData() { ID= "Game7", Name= "Tennis"},
+  }; *@
+    
 }
