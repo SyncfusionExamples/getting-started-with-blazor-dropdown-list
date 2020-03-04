@@ -36,7 +36,8 @@ namespace dropdown_list
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjEzOTY0QDMxMzcyZTM0MmUzMERENEhzUHJDTFl1S0ZuZ1JVZGp3R3ZUbEdkSlVkaEJJajdNMjZ4TitnN2c9");
+             // Add your valid license key here.
+			Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your License Key");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
