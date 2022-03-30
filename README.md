@@ -1,10 +1,6 @@
 # Add a Blazor Dropdown List to a Blazor Server App 
 
-A Blazor Server App that helps you to learn how easily you can create and configure the basic features of Syncfusion Blazor Dropdown List. You will learn how to add Syncfusion Blazor Dropdown List to a Blazor Server application. You will see how to populate it with JSON data and remote data sources. You will also learn how to sort the data source, and how to set a custom height and width for the Dropdown List pop-up. 
- 
-Example: https://blazor.syncfusion.com/demos/DropDownList/DefaultFunctionalities
-
-Documentation: https://ej2.syncfusion.com/blazor/documentation/dropdownlist/getting-started
+A Blazor Server App that helps you to learn how easily you can create and configure the basic features of Syncfusion [Blazor Dropdown List](https://www.syncfusion.com/blazor-components/blazor-dropdown-list). You will learn how to add Syncfusion Blazor Dropdown List to a Blazor Server application. You will see how to populate it with JSON data and remote data sources. You will also learn how to sort the data source, and how to set a custom height and width for the Dropdown List pop-up. 
 
 ## Project pre-requisites
 Make sure that you have the compatible versions of Visual Studio Code and .NET Core SDK 3.1.2 in your machine before starting to work on this project.
@@ -23,6 +19,8 @@ Navigate to `http://localhost:5000/` or `http://localhost:5001/` in the browser 
 
 [Documentation](https://blazor.syncfusion.com/documentation/dropdown-list/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
+[Download Free Trial](https://www.syncfusion.com/downloads/blazor-samples?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
+
 [Release History](https://blazor.syncfusion.com/documentation/release-notes/19.4.38?type=all?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
 [Online Demos](https://github.com/syncfusion/blazor-samples?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
@@ -30,6 +28,10 @@ Navigate to `http://localhost:5000/` or `http://localhost:5001/` in the browser 
 [Contact Support](https://www.syncfusion.com/support/directtrac/incidents/newincident/?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
 [Suggest a feature or report a bug](https://www.syncfusion.com/feedback/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
+
+[Community Forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
+
+[Knowledge base](https://www.syncfusion.com/kb?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
 [Pricing](https://www.syncfusion.com/sales/products/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
