@@ -1,26 +1,10 @@
 ﻿@page "/"
 
 <div class="control">
-    <EjsDropDownList TItem="EmployeeData" TValue="string" 
-    Placeholder="Select a name" 
-    PopupWidth="250px" PopupHeight="400px"
-    SortOrder=Syncfusion.EJ2.Blazor.Lists.SortOrder.Descending>
-    <DropDownListFieldSettings Text="FirstName" 
-    Value="EmployeeID">
-    </DropDownListFieldSettings>
-    <EjsDataManager 
-    URL="https://ej2services.syncfusion.com/production/web-services/api/Employees" 
-    Adaptor="Syncfusion.EJ2.Blazor.Adaptors.WebApiAdaptor" 
-    CrossDomain=true >
-    </EjsDataManager>
-    </EjsDropDownList>
-    
-    // List data binding
-    @* <EjsDropDownList DataSource="@Games" TValue="string" TItem="GamesData" Placeholder="Select a game"
+    <SfDropDownList DataSource="@Games" TValue="string" TItem="GamesData" Placeholder="Select a game"
    PopupWidth="250px" PopupHeight="400px">
-  <DropDownListFieldSettings Text="Name" Value="ID">
-  </DropDownListFieldSettings>
-</EjsDropDownList> *@
+        <DropDownListFieldSettings Text="Name" Value="ID"></DropDownListFieldSettings>
+    </SfDropDownList>
 </div>
 
 <style>
@@ -32,15 +16,7 @@
 
 @code {
 
-public class EmployeeData {
-        public string FirstName { get; set; }
-        public string EmployeeID { get; set; }
-        public string Designation { get; set; }
-        public string Country { get; set; }
-    }
-
-  // Model class for List data source
-  @* public class GamesData
+  public class GamesData
   {  
     public string ID { get; set; }
     public string Name { get; set; }
@@ -53,6 +29,6 @@ public class EmployeeData {
     new GamesData() { ID= "Game5", Name= "Golf" },
     new GamesData() { ID= "Game6", Name= "Hockey" },
     new GamesData() { ID= "Game7", Name= "Tennis"},
-  }; *@
+  }; 
     
 }
